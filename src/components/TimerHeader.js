@@ -12,7 +12,7 @@ function TimerHeader({
   useEffect(() => {
     setStartTimer(
       <Countdown
-        date={Date.now() + 20000}
+        date={Date.now() + 60000}
         renderer={renderer}
         onComplete={() => {
           setQuizCompleted(true);

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { AiOutlineClockCircle, AiFillWarning } from "react-icons/ai";
 import { BsPatchQuestion } from "react-icons/bs";
 import { GrCertificate } from "react-icons/gr";
@@ -20,12 +20,12 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
       className="h-[30vh] mt-[70vh] w-full lg:w-[33%] overflow-hidden"
       onRequestClose={() => setShowBottomBar(false)}
     >
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col justify-between h-full">
         <div>
           <p className="text-xl text-gray-700 font-semibold">Quiz Rules</p>
           <div className="flex flex-col space-y-5 mt-5">
             <IconText
-              title="10 mins"
+              title="1 min"
               subTitle="Keep in mind that this is a time-bound quiz."
               icon={<AiOutlineClockCircle />}
               space="space-x-4 text-2xl"
@@ -44,16 +44,18 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
             />
           </div>
         </div>
-        <div className="mt-7 space-x-3 flex justify-center rounded-xl p-2 items-center bg-slate-200 text-sm">
-          <AiFillWarning className="text-green-500" />
-          <p className="text-[11px]">
-            This quiz can only be attempted once daily.
-          </p>
-        </div>
-        <div className="flex justify-center mt-4">
-          <Link to="/quiz">
-            <Button text="Start" />
-          </Link>
+        <div>
+          <div className="mt-7 space-x-3 flex justify-center rounded-xl p-2 items-center bg-slate-200 text-sm">
+            <AiFillWarning className="text-green-500" />
+            <p className="text-[11px]">
+              This quiz can only be attempted once daily.
+            </p>
+          </div>
+          <div className="flex justify-center mt-4">
+            <Link to="/quiz">
+              <Button text="Start" />
+            </Link>
+          </div>
         </div>
       </div>
     </SlidingPane>

@@ -56,7 +56,7 @@ function CompletedPage({ score, onClick }) {
           </p>
         </div>
       </div>
-      <Footer btnText="Check Result" onClick={onClick} />
+      <Footer btnText="Check Result" onClick={!loading && onClick} />
     </>
   );
 }

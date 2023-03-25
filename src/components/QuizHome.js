@@ -113,7 +113,7 @@ function QuizHome({ showBottomBar, setShowBottomBar }) {
                 space="space-x-2"
               />
               <IconText
-                subTitle="5 Mins"
+                subTitle="1 Min"
                 icon={<AiOutlineClockCircle />}
                 space="space-x-2"
               />

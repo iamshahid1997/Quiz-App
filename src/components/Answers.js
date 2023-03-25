@@ -3,7 +3,7 @@ import QUESTIONS from "../utils/MCQ.json";
 
 function Answers({ answersList }) {
   return (
-    <div className="mt-5 px-4">
+    <div className="my-5 px-4">
       <p className="text-2xl font-semibold text-gray-600 text-center">
         Your Answers
       </p>
