@@ -16,7 +16,7 @@ function TimerHeader({
         renderer={renderer}
         onComplete={() => {
           setQuizCompleted(true);
-          setTime({ minutes: 0, seconds: 60 });
+          setTime({ minutes: 0, seconds: 0 });
         }}
       />
     );
