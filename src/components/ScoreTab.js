@@ -3,7 +3,7 @@ import { AiOutlineShareAlt } from "react-icons/ai";
 
 function ScoreTab({ score, totalQuestions, time }) {
   const SUCCESS_MSG = "Congratulations, You have passed the quiz.";
-  const FAIL_MSG = "Oh Snap, YOu can do better";
+  const FAIL_MSG = "Oh Snap, You can do better";
   return (
     <div className="bg-purple-300 h-50vh px-4 py-6 flex flex-col items-center">
       <p className="text-2xl font-semibold text-gray-800 mt-7">
