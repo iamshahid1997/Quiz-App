@@ -49,7 +49,7 @@ function CompletedPage({ score, onClick }) {
           <p className="text-sm text-white text-semibold">
             What are karma Points?
           </p>
-          <p className="text-[11px] text-gray-100 w-4/5">
+          <p className="text-[11px] lg:text-xs text-gray-100 w-4/5">
             Karma points are awarded for various actions like atempting quizes
             and watching videos, allowing you to move up the leaderboards and
             unlock new features.

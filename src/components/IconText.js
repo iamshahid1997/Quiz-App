@@ -7,8 +7,8 @@ function IconText({ title, subTitle, icon, space }) {
     >
       {icon}
       <div className="flex flex-col">
-        <p className="text-sm font-medium text-gray-600">{title}</p>
-        <p className="text-xs">{subTitle}</p>
+        <p className="text-sm lg:text-base font-medium text-gray-600">{title}</p>
+        <p className="text-xs lg:text-sm">{subTitle}</p>
       </div>
     </div>
   );

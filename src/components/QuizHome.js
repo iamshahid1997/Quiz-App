@@ -19,7 +19,7 @@ function QuizHome({ showBottomBar, setShowBottomBar }) {
       <img
         src="/assets/quizPoster.jpeg"
         alt="poster"
-        className="w-full h-64 lg:h-72 transition ease-in-out delay-150 before:w-0 after:w-full"
+        className="w-full h-64 lg:h-96 transition ease-in-out delay-150 before:w-0 after:w-full"
       />
       <div className="px-4 py-6">
         <p className="text-xl lg:text-2xl font-semibold text-gray-600">
@@ -29,52 +29,52 @@ function QuizHome({ showBottomBar, setShowBottomBar }) {
           <div className="flex flex-col space-y-3">
             <div className="flex space-x-2 items-center text-gray-500 font-medium">
               <FaRegCommentDots />
-              <p className="text-[11px] text-gray-600">Leave a comment</p>
+              <p className="text-[11px] lg:text-sm text-gray-600">Leave a comment</p>
             </div>
             <div className="flex space-x-2 items-center text-gray-500 font-medium">
               <BsSave />
-              <p className="text-[11px] text-gray-600">Save Quiz</p>
+              <p className="text-[11px] lg:text-sm text-gray-600">Save Quiz</p>
             </div>
             <div className="flex space-x-2 items-center text-gray-500 font-medium">
               <GiCrossedSwords />
-              <p className="text-[11px] text-gray-600">Challenge a Friend</p>
+              <p className="text-[11px] lg:text-sm text-gray-600">Challenge a Friend</p>
             </div>
           </div>
           <div>
-            <div className="flex items-center -space-x-3">
-              <div className="w-7 h-7 rounded-full overflow-hidden border-2 border-white">
+            <div className="flex items-center -space-x-3 lg:-space-x-4">
+              <div className="w-7 h-7 lg:w-9 lg:h-9 rounded-full overflow-hidden border-2 border-white">
                 <img
                   src="/assets/gojo.avif"
                   alt="enrolled"
                   className="h-full w-full"
                 />
               </div>
-              <div className="w-7 h-7 rounded-full overflow-hidden border-2 border-white">
+              <div className="w-7 h-7 lg:w-9 lg:h-9 rounded-full overflow-hidden border-2 border-white">
                 <img
                   src="/assets/nanami.webp"
                   alt="enrolled"
                   className="h-full w-full"
                 />
               </div>
-              <div className="w-7 h-7 rounded-full overflow-hidden border-2 border-white">
+              <div className="w-7 h-7 lg:w-9 lg:h-9 rounded-full overflow-hidden border-2 border-white">
                 <img
                   src="/assets/otaku.webp"
                   alt="enrolled"
                   className="h-full w-full"
                 />
               </div>
-              <div className="w-7 h-7 rounded-full overflow-hidden border-2 border-white">
+              <div className="w-7 h-7 lg:w-9 lg:h-9 rounded-full overflow-hidden border-2 border-white">
                 <img
                   src="/assets/sukuna.jpeg"
                   alt="enrolled"
                   className="h-full w-full"
                 />
               </div>
-              <div className="w-7 h-7 rounded-full overflow-hidden border-2 border-white bg-green-500 text-white flex justify-center items-center text-[8px]">
+              <div className="w-7 h-7 lg:w-9 lg:h-9 rounded-full overflow-hidden border-2 border-white bg-green-500 text-white flex justify-center items-center text-[8px]">
                 <p>98+</p>
               </div>
             </div>
-            <p className="text-[9px] text-gray-500">people enrolled</p>
+            <p className="text-[9px] lg:text-xs text-gray-500">people enrolled</p>
             <div className="flex items-center text-sm text-[#FDCC0D] mt-1">
               <AiFillStar />
               <AiFillStar />
@@ -82,11 +82,11 @@ function QuizHome({ showBottomBar, setShowBottomBar }) {
               <AiFillStar />
               <AiFillStar />
             </div>
-            <p className="text-[9px] text-gray-500">3 Ratings(5.0)</p>
+            <p className="text-[9px] lg:text-xs text-gray-500">3 Ratings(5.0)</p>
           </div>
         </div>
         <div className="mt-8">
-          <p className="text-xs text-gray-600 font-medium">
+          <p className="text-xs lg:text-sm text-gray-600 font-medium">
             {showFullDescription
               ? QUIZ_DESCRIPTION
               : `${QUIZ_DESCRIPTION.substr(0, 98)} ...`}

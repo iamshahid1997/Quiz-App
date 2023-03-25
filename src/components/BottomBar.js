@@ -47,7 +47,7 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
         <div>
           <div className="space-x-3 flex justify-center rounded-xl p-2 items-center bg-slate-200 text-sm">
             <AiFillWarning className="text-green-500" />
-            <p className="text-[11px]">
+            <p className="text-[11px] lg:text-xs">
               This quiz can only be attempted once daily.
             </p>
           </div>
