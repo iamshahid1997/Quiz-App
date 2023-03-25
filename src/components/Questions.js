@@ -2,7 +2,7 @@ import React from "react";
 
 function Questions({ question, setSelectedAnswer, selectedAnswer }) {
   return (
-    <div className="min-h-[80dvh] bg-slate-100 px-4 flex flex-col justify-between">
+    <div className="min-h-[80vh] bg-slate-100 px-4 flex flex-col justify-between">
       <p className="text-gray-600 mt-6">{question.question}</p>
       <div className="flex flex-col space-y-4 mb-5">
         {question.answers.map((answer, index) => (
