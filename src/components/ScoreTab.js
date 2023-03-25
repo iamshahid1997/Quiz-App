@@ -32,7 +32,7 @@ function ScoreTab({ score, totalQuestions, time }) {
         <div className="flex flex-col space-y-1 items-center">
           <p className="text-sm text-gray-600 font-semibold">Time Taken</p>
           <p className="text-2xl text-purple-700 font-semibold tracking-widest">
-            {time.minutes}: {20 - time.seconds}
+            {time.minutes}: {60 - time.seconds}
           </p>
         </div>
       </div>
