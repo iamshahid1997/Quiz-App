@@ -17,7 +17,7 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
       //   stitle="Hey, it is optional pane title.  I can be React component too."
       from="bottom"
       //   width="100%"
-      className="h-[30vh] mt-[70vh] w-full lg:w-[33%] overflow-hidden"
+      className="overflow-hidden"
       onRequestClose={() => setShowBottomBar(false)}
     >
       <div className="flex flex-col justify-between h-full">

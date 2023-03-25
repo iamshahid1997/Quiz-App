@@ -9,7 +9,7 @@ function Questions({ question, setSelectedAnswer, selectedAnswer }) {
           <div
             key={index}
             onClick={() => setSelectedAnswer(answer)}
-            className="grid grid-cols-12 bg-white rounded-lg p-3 items-center"
+            className="grid grid-cols-12 bg-white rounded-lg p-3 items-center cursor-pointer"
           >
             <div className="col-span-11 flex space-x-3 items-center">
               <span
