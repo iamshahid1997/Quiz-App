@@ -3,7 +3,7 @@ import { FaArrowLeft, FaSearch } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className="w-full bg-slate-100 h-16 flex justify-between px-4 items-center sticky top-0">
+    <div className="w-full bg-slate-100 h-[10vh] flex justify-between px-4 items-center sticky top-0">
       <FaArrowLeft className="text-gray-600 font-light" />
       <div className="flex space-x-4 items-center">
         <FaSearch />
