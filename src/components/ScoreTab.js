@@ -11,7 +11,7 @@ function ScoreTab({ score, totalQuestions, time }) {
       </p>
       <div className="w-full bg-white flex flex-col items-center p-3 rounded-xl mt-4 space-y-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <p className="text-green-500 text-xs">You Scored: </p>
-        <p className="text-2xl text-purple-700 font-semibold animate-bounce">
+        <p className="text-2xl text-purple-700 font-semibold">
           {(score / totalQuestions) * 100}%
         </p>
         <p className="text-sm text-gray-600 font-semibold">
