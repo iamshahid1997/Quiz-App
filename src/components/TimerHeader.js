@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Countdown from "react-countdown";
 
-function TimerHeader({ currentQuestion, totalQuestions, setQuizCompleted }) {
+function TimerHeader({
+  currentQuestion,
+  totalQuestions,
+  setQuizCompleted,
+  setTime,
+}) {
   const [startTimer, setStartTimer] = useState(null);
 
   useEffect(() => {
@@ -9,12 +14,16 @@ function TimerHeader({ currentQuestion, totalQuestions, setQuizCompleted }) {
       <Countdown
         date={Date.now() + 20000}
         renderer={renderer}
-        onComplete={() => setQuizCompleted(true)}
+        onComplete={() => {
+          setQuizCompleted(true);
+          setTime({ minutes: 0, seconds: 0 });
+        }}
       />
     );
   }, [setQuizCompleted]);
 
   function renderer({ minutes, seconds }) {
+    setTime({ minutes: minutes, seconds: seconds });
     return (
       <span className="px-3 py-1 bg-purple-500 text-white rounded-full text-xs font-semibold leading-3">
         {minutes < 10 ? `0${minutes}` : minutes} :{" "}

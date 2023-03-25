@@ -4,7 +4,7 @@ import ConfettiExplosion from "react-confetti-explosion";
 import Footer from "./Footer";
 import "./CompletedPage.css";
 
-function CompletedPage({ score }) {
+function CompletedPage({ score, onClick }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -28,12 +28,12 @@ function CompletedPage({ score }) {
         )}
         {!loading ? (
           <span className="textAnimation flex flex-col items-center space-y-2">
-            <div className="flex items-center space-x-2 bg-emerald-500 px-3 py-2 rounded-full w-[40%]">
+            <span className="flex items-center space-x-2 bg-emerald-500 px-4 py-2 rounded-full">
               <span className="h-6 w-6 rounded-full bg-yellow-500 flex justify-center items-center">
                 <AiFillStar className="text-yellow-200" />
               </span>
               <p className="text-white font-semibold">60</p>
-            </div>
+            </span>
             <p className="text-2xl font-semibold text-white tracking-wider">
               Karma Points earned!
             </p>
@@ -56,7 +56,7 @@ function CompletedPage({ score }) {
           </p>
         </div>
       </div>
-      <Footer btnText="Check Result" />
+      <Footer btnText="Check Result" onClick={onClick} />
     </>
   );
 }
