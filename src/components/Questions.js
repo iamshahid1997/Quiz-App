@@ -4,12 +4,12 @@ function Questions({ question, setSelectedAnswer, selectedAnswer }) {
   return (
     <div className="min-h-[83vh] bg-slate-100 px-4 flex flex-col justify-between">
       <p className="text-gray-600 mt-6">{question.question}</p>
-      <div className="flex flex-col space-y-2">
+      <div className="flex flex-col space-y-4 mb-5">
         {question.answers.map((answer, index) => (
           <div
             key={index}
             onClick={() => setSelectedAnswer(answer)}
-            className="grid grid-cols-12 bg-white rounded-lg p-3 items-center cursor-pointer"
+            className="grid grid-cols-12 bg-white rounded-lg p-3 items-center cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
           >
             <div className="col-span-11 flex space-x-3 items-center">
               <span
