@@ -32,7 +32,7 @@ function TimerHeader({
     );
   }
   return (
-    <div className="w-full bg-slate-100 h-[10dvh] flex justify-between px-4 items-center sticky top-0">
+    <div className="w-full bg-slate-100 h-[16dvh] flex justify-between px-4 items-center sticky top-0">
       <span className="px-3 py-1 bg-green-500 text-white rounded-full text-xs font-semibold leading-3">
         {`0${currentQuestion} / 0${totalQuestions}`}
       </span>
