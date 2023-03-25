@@ -20,7 +20,7 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
       className="overflow-scroll"
       onRequestClose={() => setShowBottomBar(false)}
     >
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col justify-between h-full">
         <div>
           <p className="text-xl text-gray-700 font-semibold">Quiz Rules</p>
           <div className="flex flex-col space-y-5 mt-5">
