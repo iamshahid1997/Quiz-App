@@ -1,6 +1,6 @@
 .slide-pane_from_bottom { 
-    height: 40vh !important;
-    margin-top: 60vh !important;
+    height: 60vh !important;
+    margin-top: 40vh !important;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     width: auto !important;
