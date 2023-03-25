@@ -45,7 +45,7 @@ function BottomBar({ showBottomBar, setShowBottomBar }) {
           </div>
         </div>
         <div>
-          <div className="mt-7 space-x-3 flex justify-center rounded-xl p-2 items-center bg-slate-200 text-sm">
+          <div className="space-x-3 flex justify-center rounded-xl p-2 items-center bg-slate-200 text-sm">
             <AiFillWarning className="text-green-500" />
             <p className="text-[11px]">
               This quiz can only be attempted once daily.
