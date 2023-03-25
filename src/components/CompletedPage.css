@@ -1,0 +1,17 @@
+.confetti-explosion-container-0-2-818 {
+    margin-top: -200px;
+}
+
+.textAnimation {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

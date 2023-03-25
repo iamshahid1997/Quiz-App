@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following statements are true?",
+      "answers": [
+        {
+          "answer": "Node.js is a server-side language.",
+          "correct": true
+        },
+        {
+          "answer": "Node.js is a client-side language.",
+          "correct": false
+        },
+        {
+          "answer": "Node.js is both a server-side language and a client-side launguage.",
+          "correct": false
+        },
+        {
+          "answer": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "________ is an interactive shell that processes Node.",
+      "answers": [
+        {
+          "answer": "REPL",
+          "correct": true
+        },
+        {
+          "answer": "REAL",
+          "correct": false
+        },
+        {
+          "answer": "RESP",
+          "correct": false
+        },
+        {
+          "answer": "None of the above.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Node.js is written in which language?",
+      "answers": [
+        {
+          "answer": "C++",
+          "correct": false
+        },
+        {
+          "answer": "JavaScript",
+          "correct": true
+        },
+        {
+          "answer": "C",
+          "correct": false
+        },
+        {
+          "answer": "Java",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following are examples of node modules?",
+      "answers": [
+        {
+          "answer": "Express",
+          "correct": false
+        },
+        {
+          "answer": "Body-parser",
+          "correct": false
+        },
+        {
+          "answer": "Socket.io",
+          "correct": false
+        },
+        {
+          "answer": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "To include the HTTP server in the node modules, what fuction do we use?",
+      "answers": [
+        {
+          "answer": "get()",
+          "correct": false
+        },
+        {
+          "answer": "require()",
+          "correct": true
+        },
+        {
+          "answer": "createServer()",
+          "correct": false
+        },
+        {
+          "answer": "None of the above",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

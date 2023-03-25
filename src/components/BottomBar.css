@@ -1,0 +1,24 @@
+.slide-pane_from_bottom { 
+    height: 40vh !important;
+    margin-top: 60vh !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: auto !important;
+}
+
+.slide-pane__header{
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+    .slide-pane_from_bottom {
+      width: 33.33333% !important;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    .slide-pane__overlay.overlay-after-open {
+        display: flex;
+        justify-content: center;
+    }
+  }  
