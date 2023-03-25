@@ -15,7 +15,7 @@ const QUIZ_DESCRIPTION =
 function QuizHome({ showBottomBar, setShowBottomBar }) {
   const [showFullDescription, setShowFullDescription] = useState(false);
   return (
-    <div className="min-h-[68vh]">
+    <div className="min-h-[80vh]">
       <img
         src="/assets/quizPoster.jpeg"
         alt="poster"
